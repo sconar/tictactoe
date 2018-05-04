@@ -1,0 +1,50 @@
+body {
+    background: no-repeat center center fixed;
+    background: url("https://thumb9.shutterstock.com/display_pic_with_logo/169951374/709731865/stock-vector-seamless-pattern-of-game-tic-tac-toe-drawing-of-white-contour-on-black-background-vector-709731865.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.gameBoard {
+    position: relative;
+    width: 372px;
+    height: 372px;
+    margin: auto;
+    left: 20px;
+}
+
+.square {
+    background: rgba(255, 255, 255, 0.9);
+    width: 122px;
+    height: 122px;
+    border: 1px solid black;
+    -moz-box-shadow: 8px 8px 15px #000;
+    -webkit-box-shadow: 8px 8px 15px #000;
+    box-shadow: 8px 8px 15px #000;
+    cursor: pointer;
+    text-align: center;
+    font-size: 100px;
+}
+
+.X {
+    background-color: white;
+}
+
+.O {
+    background-color: white;
+}
+
+.spacer {
+    padding: 5%;
+    text-align: center;
+    text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
+    font-size: 4em;
+    font-weight: bold;
+}
+
+.btn {
+    -moz-box-shadow: 8px 8px 15px #000;
+    -webkit-box-shadow: 8px 8px 15px #000;
+    box-shadow: 8px 8px 15px #000;
+}
